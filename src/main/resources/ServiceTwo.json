@@ -1,0 +1,22 @@
+{
+    "Body":{
+        "Liste1": {
+            "ID": "12345",
+            "Name" : "customerlist",
+            "Company List": [
+                "Company": "c1",
+                "Company": "c2",
+                "Company": "c3"
+            ]
+        },
+        "Liste2":{
+            "ID": "12346",
+            "Name" : "vendorlist",
+            "Company List": [
+                "Company": "c4",
+                "Company": "c5",
+                "Company": "c6"
+            ]
+        }
+    }
+}
