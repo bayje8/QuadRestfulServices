@@ -16,7 +16,7 @@ public class QuadServicesController {
 	public String getServiceOne() {
 		String serviceOne = "Default JSON response";
 		try {
-			serviceOne = FileUtils.readFileToString(new File(getClass().getClassLoader().getResource("INT66.json").getFile()), StandardCharsets.UTF_8);
+			serviceOne = FileUtils.readFileToString(new File("C:\\temp\\INT66.json"), StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -28,7 +28,7 @@ public class QuadServicesController {
 	public String getServiceTwo() {
 		String serviceTwo = "Default JSON response";
 		try {
-			serviceTwo = FileUtils.readFileToString(new File(getClass().getClassLoader().getResource("INT510.json").getFile()), StandardCharsets.UTF_8);
+			serviceTwo = FileUtils.readFileToString(new File("C:\\temp\\INT510.json"), StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -40,7 +40,7 @@ public class QuadServicesController {
 	public String getServiceThree() {
 		String serviceThree = "Default JSON response";
 		try {
-			serviceThree = FileUtils.readFileToString(new File(getClass().getClassLoader().getResource("INT501.json").getFile()), StandardCharsets.UTF_8);
+			serviceThree = FileUtils.readFileToString(new File("C:\\temp\\INT501.json"), StandardCharsets.UTF_8);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
