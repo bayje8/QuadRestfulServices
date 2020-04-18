@@ -1,0 +1,384 @@
+{
+	"documentMetadata": {
+		"applicationSystemName": "string",
+		"transactionReferenceGUID": "string",
+		"businessCapabilityName": "string",
+		"documentTypeCode": "string",
+		"productFamilyCode": "string"
+	},
+	"recipients": [
+		{
+			"recipientAddressLineCode": "string",
+			"subscriberID": "string",
+			"partyID": "string",
+			"partyRoleCode": "string",
+			"partyRoleDescription": "string",
+			"jobTitleText": "string",
+			"name": {
+				"personGiven1Name": "string",
+				"personLastName": "string",
+				"personGiven2Name": "string",
+				"personPrefixofName": "string"
+			},
+			"addresses": [
+				{
+					"addressTypeCode": "string",
+					"addressTypeDescription": "string",
+					"address1Line": "string",
+					"address2Line": "string",
+					"address3Line": "string",
+					"cityName": "string",
+					"countryName": "string",
+					"extension": {
+						"zipDeliveryOfficeCode": "string",
+						"zipDeliverySegmentCode": "string",
+						"stateCode": "string",
+						"forwardSortationAreaCode": "string",
+						"localDeliveryUnitCode": "string",
+						"provinceCode": "string",
+						"internationalStateName": "string",
+						"internationalPostalCode": "string"
+					}
+				}
+			],
+			"electronicContactPoints": [
+				{
+					"electronicContactPointTypeCode": "string",
+					"electronicContactPointValue": "string"
+				}
+			],
+			"communicationMethod": {
+				"communicationMethodCode": "string",
+				"communicationMethodDescription": "string"
+			}
+		}
+	],
+	"claimDetails": {
+		"claimant": {
+			"name": {
+				"personGiven1Name": "string",
+				"personLastName": "string",
+				"personGiven2Name": "string",
+				"personPrefixofName": "string"
+			},
+			"subscriberID": "string",
+			"partyID": "string",
+			"genderCode": "string",
+			"partyRoleCode": "string",
+			"partyRoleDescription": "string",
+			"jobTitleText": "string",
+			"deathDate": "string",
+			"addresses": [
+				{
+					"addressTypeCode": "string",
+					"addressTypeDescription": "string",
+					"address1Line": "string",
+					"address2Line": "string",
+					"address3Line": "string",
+					"cityName": "string",
+					"countryName": "string",
+					"extension": {
+						"zipDeliveryOfficeCode": "string",
+						"zipDeliverySegmentCode": "string",
+						"stateCode": "string",
+						"forwardSortationAreaCode": "string",
+						"localDeliveryUnitCode": "string",
+						"provinceCode": "string",
+						"internationalStateName": "string",
+						"internationalPostalCode": "string"
+					}
+				}
+			],
+			"phones": [
+				{
+					"phoneTypeCode": "string",
+					"phoneTypeDescription": "string",
+					"preferredIndicator": "string",
+					"phoneCountryCode": "string",
+					"phoneCountryName": "string",
+					"extension": {
+						"areaCode": "string",
+						"phoneNumber": "string",
+						"extensionPhoneNumber": "string"
+					}
+				}
+			],
+			"fax": [
+				{
+					"phoneTypeCode": "string",
+					"phoneTypeDescription": "string",
+					"phoneCountryCode": "string",
+					"phoneCountryName": "string",
+					"extension": {
+						"areaCode": "string",
+						"phoneNumber": "string",
+						"extensionPhoneNumber": "string"
+					}
+				}
+			],
+			"electronicContactPoints": [
+				{
+					"electronicContactPointTypeCode": "string",
+					"electronicContactPointValue": "string"
+				}
+			]
+		},
+		"employee": {
+			"name": {
+				"personGiven1Name": "string",
+				"personLastName": "string",
+				"personGiven2Name": "string",
+				"personPrefixofName": "string"
+			},
+			"subscriberID": "string",
+			"partyID": "string",
+			"birthDate": "string",
+			"maritalStatusCode": "string",
+			"workStateCode": "string",
+			"employmentInfo": {
+				"employmentDate": "string",
+				"employmentStatusCode": "string",
+				"terminationDate": "string",
+				"rehireDate": "string",
+				"salaryAmount": 0,
+				"worktimes": [
+					{
+						"worktimeDurationCount": 0,
+						"worktimeDurationCode": "string",
+						"worktimeWithinDurationCount": 0,
+						"worktimeWithinDurationCode": "string"
+					}
+				]
+			},
+			"addresses": [
+				{
+					"addressTypeCode": "string",
+					"addressTypeDescription": "string",
+					"address1Line": "string",
+					"address2Line": "string",
+					"address3Line": "string",
+					"cityName": "string",
+					"countryName": "string",
+					"extension": {
+						"zipDeliveryOfficeCode": "string",
+						"zipDeliverySegmentCode": "string",
+						"stateCode": "string",
+						"forwardSortationAreaCode": "string",
+						"localDeliveryUnitCode": "string",
+						"provinceCode": "string",
+						"internationalStateName": "string",
+						"internationalPostalCode": "string"
+					}
+				}
+			],
+			"phones": [
+				{
+					"phoneTypeCode": "string",
+					"phoneTypeDescription": "string",
+					"preferredIndicator": "string",
+					"phoneCountryCode": "string",
+					"phoneCountryName": "string",
+					"extension": {
+						"areaCode": "string",
+						"phoneNumber": "string",
+						"extensionPhoneNumber": "string"
+					}
+				}
+			],
+			"fax": [
+				{
+					"phoneTypeCode": "string",
+					"phoneTypeDescription": "string",
+					"phoneCountryCode": "string",
+					"phoneCountryName": "string",
+					"extension": {
+						"areaCode": "string",
+						"phoneNumber": "string",
+						"extensionPhoneNumber": "string"
+					}
+				}
+			],
+			"electronicContactPoints": [
+				{
+					"electronicContactPointTypeCode": "string",
+					"electronicContactPointValue": "string"
+				}
+			]
+		},
+		"organization": {
+			"customerNumber": "string",
+			"partyRoleCode": "string",
+			"partyRoleDescription": "string",
+			"names": [
+				{
+					"organizationName": "string",
+					"partyNameTypeCode": "string",
+					"partyNameTypeDescription": "string"
+				}
+			],
+			"addresses": [
+				{
+					"addressTypeCode": "string",
+					"addressTypeDescription": "string",
+					"address1Line": "string",
+					"address2Line": "string",
+					"address3Line": "string",
+					"cityName": "string",
+					"countryName": "string",
+					"extension": {
+						"zipDeliveryOfficeCode": "string",
+						"zipDeliverySegmentCode": "string",
+						"stateCode": "string",
+						"forwardSortationAreaCode": "string",
+						"localDeliveryUnitCode": "string",
+						"provinceCode": "string",
+						"internationalStateName": "string",
+						"internationalPostalCode": "string"
+					}
+				}
+			],
+			"electronicContactPoints": [
+				{
+					"electronicContactPointTypeCode": "string",
+					"electronicContactPointValue": "string"
+				}
+			]
+		},
+		"disabilityClaim": {
+			"claimSummary": {
+				"claimGroupParentLevelID": "string",
+				"claimGroupParentLevelName": "string",
+				"claimGroupParentLevelStatusDescription": "string",
+				"claimStartDate": "string",
+				"receivedDate": "string",
+				"workReturnDate": "string",
+				"additionalRoles": [
+					{
+						"partyRoleCode": "string",
+						"partyRoleDescription": "string",
+						"partySystemKeyID": "string",
+						"name": {
+							"personGiven1Name": "string",
+							"personLastName": "string",
+							"personGiven2Name": "string",
+							"personPrefixofName": "string"
+						},
+						"addresses": [
+							{
+								"addressTypeCode": "string",
+								"addressTypeDescription": "string",
+								"address1Line": "string",
+								"address2Line": "string",
+								"address3Line": "string",
+								"cityName": "string",
+								"countryName": "string",
+								"extension": {
+									"zipDeliveryOfficeCode": "string",
+									"zipDeliverySegmentCode": "string",
+									"stateCode": "string",
+									"forwardSortationAreaCode": "string",
+									"localDeliveryUnitCode": "string",
+									"provinceCode": "string",
+									"internationalStateName": "string",
+									"internationalPostalCode": "string"
+								}
+							}
+						],
+						"phones": [
+							{
+								"phoneTypeCode": "string",
+								"phoneTypeDescription": "string",
+								"preferredIndicator": "string",
+								"phoneCountryCode": "string",
+								"phoneCountryName": "string",
+								"extension": {
+									"areaCode": "string",
+									"phoneNumber": "string",
+									"extensionPhoneNumber": "string"
+								}
+							}
+						],
+						"fax": [
+							{
+								"phoneTypeCode": "string",
+								"phoneTypeDescription": "string",
+								"phoneCountryCode": "string",
+								"phoneCountryName": "string",
+								"extension": {
+									"areaCode": "string",
+									"phoneNumber": "string",
+									"extensionPhoneNumber": "string"
+								}
+							}
+						],
+						"electronicContactPoints": [
+							{
+								"electronicContactPointTypeCode": "string",
+								"electronicContactPointValue": "string"
+							}
+						]
+					}
+				]
+			},
+			"claims": [
+				{
+					"claimID": "string",
+					"systemClaimID": "string",
+					"productGroupName": "string",
+					"productGroupCode": "string",
+					"claimStatusDescription": "string",
+					"claimStartDate": "string",
+					"claimEndDate": "string",
+					"declineDate": "string",
+					"benefitStartDate": "string",
+					"benefitEndDate": "string",
+					"pregnancyDueDateTimestamp": "string",
+					"conditions": [
+						{
+							"startDateTimestamp": "string",
+							"limitDateTimestamp": "string",
+							"benefitLimitConditionCode": "string",
+							"benefitLimitConditionDescription": "string"
+						}
+					],
+					"reportNumber": "string",
+					"subdivisionID": "string",
+					"claimBranchID": "string"
+				}
+			]
+		},
+		"absence": {
+			"absenceID": "string",
+			"systemAbsenceID": "string",
+			"productGroupName": "string",
+			"absenceStatusDescription": "string",
+			"receivedDate": "string",
+			"leaveRequests": [
+				{
+					"absenceTypeStartDate": "string",
+					"absenceTypeEndDate": "string",
+					"workReturnDate": "string",
+					"absenceReasonDescription": "string",
+					"absenceTypeDescription": "string",
+					"absenceStatusDescription": "string",
+					"absencePeriod": {
+						"absenceFrequencyTypeCode": "string",
+						"absenceTypeStartDate": "string",
+						"absenceTypeEndDate": "string"
+					},
+					"absenceCertifications": [
+						{
+							"certificationStartDate": "string",
+							"certificationEndDate": "string"
+						}
+					],
+					"absencePrograms": [
+						{
+							"absenceProgramName": "string"
+						}
+					]
+				}
+			]
+		}
+	}
+}
